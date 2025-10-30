@@ -140,7 +140,7 @@ function AppContent() {
 
   const featuredTools = filteredTools.filter((tool) => tool.is_featured);
   const newTools = filteredTools.filter((tool) => tool.is_new);
-  const popularTools = filteredTools.filter((tool) => tool.total_ratings > 10000);
+  const popularTools = filteredTools.filter((tool) => tool.total_ratings > 10000); // filter untuk popular tool (total ragings harus lebih dari 10.000)
 
   const favoriteTools = tools.filter((tool) => favorites.has(tool.id));
 

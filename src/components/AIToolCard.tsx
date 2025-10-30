@@ -46,9 +46,13 @@ export default function AIToolCard({ tool, isFavorite, onToggleFavorite, onTryNo
         <div className="flex items-start justify-between mb-4">
           <div className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-cyan-100 rounded-xl flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow">
-              <span className="text-2xl font-bold bg-gradient-to-br from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                {tool.name.charAt(0)}
-              </span>
+              {tool.logo_url ? (
+                <img src={tool.logo_url} alt={`${tool.name} logo`} className="w-full h-full object-contain rounded-xl" />
+              ) : (
+                <span className="text-2xl font-bold bg-gradient-to-br from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+                  {tool.name.charAt(0)}
+                </span>
+              )}
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
