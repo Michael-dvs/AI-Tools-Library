@@ -2,9 +2,6 @@
 
 Selamat datang di AI Tools Library! Ini adalah sebuah aplikasi web **demo** yang dirancang untuk menjelajahi, membandingkan, dan menyimpan berbagai macam alat kecerdasan buatan (AI). Aplikasi ini dibangun menggunakan React, Vite, dan Supabase sebagai backend.
 
-[![Tampilan AI Tools Library](https://placehold.co/600x400?text=Tampilan+Proyek+Anda)](https://placehold.co)
-*(Ganti gambar di atas dengan screenshot proyek Anda)*
-
 ---
 
 ## ⚠️ Status Proyek: Demo
